@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int eng, math, sci, comp, hist;
+    int total;
+    float average, percentage;
+
+    // Read marks for 5 subjects
+    scanf("%d %d %d %d %d", &eng , &math, &sci, &comp, &hist);
+
+    // Calculate total, average and percentage
+    total = eng + math + sci + comp + hist;
+    average = total / 5.0;
+    percentage = (total / 500.0) * 100;
+
+    // Print results
+    printf("%d %.2f %.2f\n, total, average, percentage");
+    return 0
+}
+    
