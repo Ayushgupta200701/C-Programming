@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int A, B;
+
+    // Read input
+    scanf("%d %d", &A, &B);
+
+    // Compare and print the larger number
+    if (A > B) {
+        printf("%d\n", A);
+    } else {
+        printf("%d\n", B);
+    }
+
+    return 0;
+}
