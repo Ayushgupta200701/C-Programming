@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char ch;
+    int num;
+    float f;
+    double d;
+
+    // Reading inputs
+    scanf("%c %d %f %lf", &ch, &num, &f, &d);
+
+    // Printing with required formatting
+    printf("%c %d %.2f %.6lf\n", ch, num, f, d);
+
+    return 0;
+}
